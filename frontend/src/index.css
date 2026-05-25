@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply font-sans bg-slate-50 text-slate-800 antialiased min-h-screen dark:bg-slate-950 dark:text-slate-100;
+  }
+  ::selection {
+    @apply bg-teal-200 text-teal-900 dark:bg-teal-800 dark:text-teal-50;
+  }
+  input, select, textarea, button {
+    @apply font-sans;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .auth-mesh {
+    background: linear-gradient(145deg, #0d9488 0%, #0f766e 42%, #115e59 100%);
+    background-image:
+      radial-gradient(ellipse 120% 80% at 20% 0%, rgba(94, 234, 212, 0.45) 0%, transparent 55%),
+      radial-gradient(ellipse 90% 70% at 100% 30%, rgba(45, 212, 191, 0.25) 0%, transparent 50%),
+      linear-gradient(145deg, #0d9488 0%, #0f766e 42%, #134e4a 100%);
+  }
+
+  .auth-mesh-alt {
+    background: linear-gradient(160deg, #115e59 0%, #0f766e 50%, #0d9488 100%);
+    background-image:
+      radial-gradient(circle at 80% 20%, rgba(167, 243, 208, 0.35) 0%, transparent 45%),
+      radial-gradient(circle at 10% 80%, rgba(45, 212, 191, 0.2) 0%, transparent 40%),
+      linear-gradient(160deg, #115e59 0%, #0f766e 50%, #0d9488 100%);
+  }
+}
+
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
