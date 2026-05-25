@@ -2,6 +2,12 @@
 
 A full-stack hospital management system built with **MERN** (MongoDB, Express, React, Node.js), **Vite**, and **MongoDB Atlas**. The backend follows **MVC architecture** with a clean, modern UI/UX.
 
+## 🌐 Live Demo
+
+👉 https://hospital-management-system-5xiamr9mg-khushi5041s-projects.vercel.app
+
+---
+
 ## Features (5 modules + Auth)
 
 1. **Patients** – Add, edit, delete, and search patients (contact, DOB, blood group, status).
