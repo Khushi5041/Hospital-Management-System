@@ -18,7 +18,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://hospital-management-system-theta-silk.vercel.app"
+    "https://hospital-management-system-theta-silk.vercel.app",
+    "https://hospital-management-system-5xiamr9mg-khushi5041s-projects.vercel.app"
   ],
   credentials: true
 }));
