@@ -4,7 +4,7 @@ A full-stack hospital management system built with **MERN** (MongoDB, Express, R
 
 ## 🌐 Live Demo
 
-👉 https://hospital-management-system-5xiamr9mg-khushi5041s-projects.vercel.app
+👉 hospital-management-system-theta-silk.vercel.app
 
 ---
 
